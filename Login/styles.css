@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card button {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #b1dfc6;
+    
+}
+
+#carrinho {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+#carrinho div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#total {
+    font-weight: bold;
+}

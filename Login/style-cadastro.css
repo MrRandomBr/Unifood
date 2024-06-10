@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Reddit+Mono:wght@200..900&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'Reddit Mono', sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.main-login{
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFF9F9;
+  background-image: url(background-unifood.png);
+  background-size: 100%;
+  background-position: 12%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-login{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-unifood{
+  width: 8vw;
+  cursor: pointer;
+}
+
+.left-login-image{
+  width: 30vw;
+  cursor: pointer;
+}
+
+.right-login{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-login{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background-color: #ffd2e2;
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px #00000056;
+  align-items: center;
+}
+
+.textfield{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.textfield > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #FFF9F9;
+  color: #000000de;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield > label {
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+}
+
+.textfield > input::placeholder{
+  color: rgb(184, 184, 184);
+}
+
+.textfield > .recuperar-senha{
+  color: black;
+  margin-top: 13px;
+  font-size: 14px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+
+.btn-login{
+  width: 50%;
+  padding: 10px 0px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px white;
+}
+
+.btn-login:hover{
+  color: #FFBFD7;
+  background-color: rgb(78, 78, 78);
+}
+
+.cadastro{
+  color: black;
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 950px){
+  .card-login{
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .main-login{
+    flex-direction: column;
+    background-color: #FFF9F9;
+    background-image: none;
+  }
+
+  .left-login{
+    width: 100%;
+    height: auto;
+  }
+
+  .right-login{
+    width: 100%;
+    height: auto;
+  }
+
+  .left-login-image{
+    margin-top: 5vh;
+    width: 33vh;
+  }
+
+  .logo-unifood{
+    display: none;
+  }
+
+  .card-login{
+    width: 85%;
+    height: 90%;
+  }
+
+  .recuperar-senha{
+    font-size: 5px;
+  }
+}
