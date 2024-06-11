@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* branco */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffbfd7; /* rosa */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #f02c9e;
+}
+
+h1 {
+    text-align: center;
+    color: #f02c9e; /* Cor do texto */
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    color: #d8d0d0;
+}
+
+.product-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #494343; /* Cor do texto */
+}
+
+ul {
+    
+    list-style-type: none;
+    padding: 0;
+    border-bottom: 1px solid #bbb3b3;
+}
+
+
+.cart li {
+    margin-bottom: 10px;
+    
+}
+
+form {
+    margin-bottom: 50px;
+    
+}
+
+label {
+    margin-bottom: 8px;
+    color: #000000; /* branco */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aca9a9; /* branco */
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f55fb2; /* rosa */
+    color: #000000c0; /* branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffbfd7; /* rosa mais escuro */
+}
+
+.pix {
+    text-align: center;
+}
+
+.pix img {
+    max-width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+.codigo {
+    border: 1px solid #d8d0d0; /* Cor e espessura da borda */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    background-color: #f55fb2; /* Cor de fundo */
+}
